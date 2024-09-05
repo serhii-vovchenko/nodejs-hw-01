@@ -2,12 +2,20 @@ import { createFakeContact } from '../utils/createFakeContact.js';
 import { writeContacts } from '../utils/writeContacts.js';
 
 const generateContacts = async (number) => {
-  const createSomeContacts = [];
-  for (let i = 0; i < number; i += 1) {
-    const newContact = createFakeContact();
-    createSomeContacts.push(newContact);
+  if (number <= 0) {
+    return;
   }
-  writeContacts(createSomeContacts);
+
+  try {
+    const createSomeContacts = [];
+    for (let i = 0; i < number; i += 1) {
+      const newContact = createFakeContact();
+      createSomeContacts.push(newContact);
+    }
+    await writeContacts(createSomeContacts);
+  } catch (error) {
+    console.error(`Error, failed to generate ${number} contacts`, error);
+  }
 };
 
 generateContacts(5);

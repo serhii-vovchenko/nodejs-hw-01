@@ -1,37 +1,30 @@
-{
-  "0": {
-    "id": "3fad69a4-b9d1-48a1-b890-4681f0a1615b",
-    "name": "Dr. Dominick Toy",
-    "phone": "491.396.0517 x3153",
-    "email": "Liza0@hotmail.com",
-    "job": "Principal Security Associate"
+[
+  {
+    "id": "c41fa58b-20b4-44fa-bd03-5fa557747a95",
+    "name": "Johanna Sanford",
+    "phone": "(764) 710-1674",
+    "email": "Emelia28@hotmail.com",
+    "job": "Legacy Operations Director"
   },
-  "1": {
-    "id": "a0ef7abb-a5e5-4521-ade8-7e5e8ff773f8",
-    "name": "Pam Hills",
-    "phone": "(454) 706-2483",
-    "email": "Loy.Murphy@gmail.com",
-    "job": "National Functionality Planner"
+  {
+    "id": "3e4ac582-e012-40ac-b7c7-f4df083066b5",
+    "name": "Sheri Kling",
+    "phone": "(629) 362-1198 x0124",
+    "email": "Lizzie.Gleason30@yahoo.com",
+    "job": "Product Marketing Producer"
   },
-  "2": {
-    "id": "45c766b3-545b-4ac2-9ea0-381ec83291e8",
-    "name": "Elbert VonRueden",
-    "phone": "1-641-628-5516",
-    "email": "Jazmyne2@yahoo.com",
-    "job": "Lead Research Representative"
+  {
+    "id": "32ce7c5c-e6de-4648-871f-39ab13529c04",
+    "name": "Laurie Thompson",
+    "phone": "1-401-216-5677 x52110",
+    "email": "Edythe80@gmail.com",
+    "job": "Investor Directives Agent"
   },
-  "3": {
-    "id": "f6de56f6-1c5e-45b7-9199-564001e3a33d",
-    "name": "Dora Lind",
-    "phone": "236-295-8680",
-    "email": "Keith69@yahoo.com",
-    "job": "Corporate Program Director"
-  },
-  "4": {
-    "id": "373f981a-b102-482d-8625-b1f134c9952b",
-    "name": "Roderick Waelchi",
-    "phone": "(282) 575-8201",
-    "email": "Oral_Effertz@hotmail.com",
-    "job": "Customer Communications Strategist"
+  {
+    "id": "e1005557-31f2-40fa-9b40-0fcf89339ce2",
+    "name": "Bert Conroy",
+    "phone": "(901) 543-6911",
+    "email": "Kirk92@yahoo.com",
+    "job": "Internal Tactics Officer"
   }
-}
+]

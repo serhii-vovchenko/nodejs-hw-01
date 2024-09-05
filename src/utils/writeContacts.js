@@ -1,4 +1,4 @@
-import { promises as fs } from 'node:fs';
+import fs from 'node:fs/promises';
 
 import { PATH_DB } from '../constants/contacts.js';
 import { readContacts } from './readContacts.js';
@@ -6,8 +6,7 @@ import { readContacts } from './readContacts.js';
 export const writeContacts = async (updatedContacts) => {
   try {
     const data = await readContacts();
-    const parseData = JSON.parse(data);
-    const newData = { ...parseData, ...updatedContacts };
+    const newData = [...data, ...updatedContacts];
     await fs.writeFile(PATH_DB, JSON.stringify(newData, null, 2), 'utf-8');
     return newData;
   } catch (error) {
